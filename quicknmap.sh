@@ -7,7 +7,7 @@ echo """
        @!@@!@!  @!@  !@! @!@!!@!    @!!   
        !!:      !!:  !!! !!: :!!    !!:   
        :        : :. :   :   : :    :    
-                                   
+       MADE BY HASH2602                                    
 """
 read -p "Please enter the IP address or network range: " ip
 

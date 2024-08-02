@@ -11,7 +11,7 @@ echo """
 """
 read -p "Please enter the IP address or network range: " ip
 
-echo ""
+echo "{0} DOWNLOAD NMAP"
 echo "{1} BASIC SCAN"
 echo "{2} SPECIFIC PORT SCAN"
 echo "{3} SCAN ALL PORTS"
@@ -35,6 +35,8 @@ echo "{20} FIN SCAN"
 read -p "Select the scan you want to perform: " choice
 
 case $choice in
+    0)
+        sudo apt install nmap
     1)
         nmap $ip
         ;;

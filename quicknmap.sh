@@ -37,6 +37,7 @@ read -p "Select the scan you want to perform: " choice
 case $choice in
     0)
         sudo apt install nmap
+        ;;
     1)
         nmap $ip
         ;;
